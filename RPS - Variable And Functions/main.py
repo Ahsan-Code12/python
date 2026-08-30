@@ -7,7 +7,7 @@ def get_choices():
     elif player_choice == 'scissors':
         computer_choice = 'rock'
 
-    decisions = {"player": player_choice, "comp choice": computer_choice}
+    decisions = {"player_choice": player_choice, "computer_choice": computer_choice}
 
     return decisions
 
