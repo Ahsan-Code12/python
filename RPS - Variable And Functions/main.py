@@ -1,5 +1,7 @@
-def get_choice():
-    player_choice = "rock"
-    computer_choice = "rock"
+def get_choices():
+    player_choice = 'rock'
+    computer_choice = 'paper'
+    return player_choice, computer_choice
 
-    return player_choice
+choices = get_choices()
+print(choices)
