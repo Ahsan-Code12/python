@@ -5,7 +5,7 @@ computer_choice = random.choice(["rock", "paper", "scissors"])
 
 if user_choice == computer_choice:
   tie_match = {"your choice: ": user_choice, "computer choice: ": computer_choice, "winner": "tie"}
-  print(tie)
+  print(tie_match)
 
 elif user_choice == "rock" and computer_choice == "scissors":
   rockwin = {"your choice: ": user_choice, "computer choice: ": computer_choice, "winner": "you"}
