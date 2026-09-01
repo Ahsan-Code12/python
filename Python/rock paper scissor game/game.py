@@ -8,18 +8,18 @@ if user_choice == computer_choice:
   print(tie_match)
 
 elif user_choice == "rock" and computer_choice == "scissors":
-  rockwin = {"your choice: ": user_choice, "computer choice: ": computer_choice, "winner": "you"}
-  print(rockwin)
+  response_rock = {"your choice: ": user_choice, "computer choice: ": computer_choice, "winner": "you"}
+  print(response_rock)
 
 elif user_choice == "scissors" and computer_choice == "paper":
-  sciss_win = {"your choice: ": user_choice, "computer chocice: ": computer_choice, "winner": "you"}
-  print(sciss_win)
+  response_scissor = {"your choice: ": user_choice, "computer chocice: ": computer_choice, "winner": "you"}
+  print(response_scissor)
 
 elif user_choice == "paper" and computer_choice == "rock":
-  paper_win = {"your choice: ": user_choice, "computer choice: ": computer_choice, "winner: ": "you"}
-  print(paper_win)
+  response_paper = {"your choice: ": user_choice, "computer choice: ": computer_choice, "winner: ": "you"}
+  print(response_paper)
 
 else:
-    computer_wins = {"your choice: ": user_choice, "computer choice: ": computer_choice, "winner: ": "computer"}
-    print(computer_wins)
+    response_computer = {"your choice: ": user_choice, "computer choice: ": computer_choice, "winner: ": "computer"}
+    print(response_computer)
     
