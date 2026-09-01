@@ -1,14 +1,14 @@
-def user_name():
-    username = input("enter your name: ")
-    return username
+def username():
+    userchoice = input("enter your name: ")
+    return userchoice
 
-choice_user_name = user_name()
+name_response = username()
 
-def user_color():
-    usercolor = input("enter color: ")
-    return usercolor
+def get_color():
+    getcolor = input("enter your color: ")
+    return getcolor
 
-color = user_color()
+color_response = get_color()
 
-dict = {"name": choice_user_name, "color": color}
-print(dict)
+lists = {"name: ": name_response, "color: ": color_response}
+print(lists)
