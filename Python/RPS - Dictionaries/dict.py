@@ -14,5 +14,5 @@ def get_choices():
 
     return decisions
 
-response = get_choices()
-print(response)
+response_choice = get_choices()
+print(response_choice)
